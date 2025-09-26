@@ -1,0 +1,176 @@
+/* Genel Ayarlar */
+body {
+    width: 380px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffd208;
+    color: #1f1f1f;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Başlık Alanı */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 48px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.main-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Kart Yapısı */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Veri Gösterim Alanı */
+.data-group {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.data-group p {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.data-group span {
+    font-weight: normal;
+    color: #555;
+}
+
+/* Girdi Alanları */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.helper-text {
+    font-size: 0.75em;
+    color: #666;
+    margin-top: 5px;
+}
+.helper-text a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Buton Grubu */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Buton */
+button {
+    flex-grow: 1; 
+    padding: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#calculateBtn {
+    background-color: #000;
+}
+
+#calculateBtn:hover {
+    background-color: #333;
+}
+
+#saveBtn {
+    background-color: #6c757d; 
+}
+
+#saveBtn:hover {
+    background-color: #5a6268;
+}
+
+/* Sonuç Alanı */
+#result-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+.placeholder-text {
+    color: #888;
+}
+#result {
+    font-size: 1.1em;
+    width: 100%;
+}
+
+/* Alt Bilgi */
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #555;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
