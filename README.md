@@ -1,3 +1,13 @@
+<img width="1117" height="1345" alt="image" src="https://github.com/user-attachments/assets/d3cb4b83-2918-46fe-83b2-fbc05bea8fdd" />
+
+
+
+# Check the contents of the files using AI or yourself.
+# Do not upload any files you are unsure about or do not recognize.
+
+
+
+
 # Zama Creator Calculator - Chrome Extension
 
 This open source Chrome extension allows you to instantly and safely calculate the Zama Creator score of any tweet you are viewing directly on X.com.Important Note: This extension does not require an API key and performs all operations locally within your browser. None of your personal data is collected or transmitted.
